@@ -19,5 +19,6 @@ class AmazonSpider(scrapy.Spider):
 
             except: 
                 img = 'No Image'
+                
 
             yield {'title':title,'price':price,'img':img}
