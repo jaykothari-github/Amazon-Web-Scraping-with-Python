@@ -1,4 +1,5 @@
 import scrapy
+from ..items import AmazonScrapItem
 
 
 class AmazonSpider(scrapy.Spider):
@@ -20,5 +21,9 @@ class AmazonSpider(scrapy.Spider):
             except: 
                 img = 'No Image'
                 
+            items = AmazonScrapItem()
+            items['title'] = title
+            items['price'] = price
+            items['img'] = img
 
-            yield {'title':title,'price':price,'img':img}
+            yield items
