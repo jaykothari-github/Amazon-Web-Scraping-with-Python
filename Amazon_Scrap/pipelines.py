@@ -10,4 +10,5 @@ from itemadapter import ItemAdapter
 
 class AmazonScrapPipeline:
     def process_item(self, item, spider):
+        print('----------------------------------')
         return item
