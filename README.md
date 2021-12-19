@@ -4,5 +4,8 @@ This project is for demonstrate of Web scraping on Amazon for Accessing Mobile p
 
 ## Project requirements :
 
-Python 3
-Scrapy framework
+<ol>
+        <li>Python 3</li>
+        <li>Scrapy Framwwork</li>
+        <li>Code Editor (VS Code suitable)</li>
+</ol>
