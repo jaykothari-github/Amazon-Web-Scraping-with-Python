@@ -15,5 +15,5 @@ This project is for demonstrate of Web scraping on Amazon for Accessing Mobile p
 <p>In this project, Amazon is being scraped for Mobile details (Mobile name, Mobile price, Mobile image) 
     and store it in SQLite Database.
 
-    Scraped URL : (https://www.amazon.in/s?k=mobile+phone&i=electronics&crichd=8JAMGTSNJLC5&sprefix=mobil%2Celectronics%2C527&ref=nb_sb_ss_ts-doa-p_3_5)
+    Scraped URL : https://www.amazon.in/s?k=mobile+phone&i=electronics&crichd=8JAMGTSNJLC5&sprefix=mobil%2Celectronics%2C527&ref=nb_sb_ss_ts-doa-p_3_5
 </p>
