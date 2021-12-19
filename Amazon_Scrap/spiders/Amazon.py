@@ -5,7 +5,7 @@ from ..items import AmazonScrapItem
 class AmazonSpider(scrapy.Spider):
     name = 'Amazon'
     # allowed_domains = ['Amazon.in']
-    start_urls = ['https://www.amazon.in/s?k=mobile+phone&i=electronics&crid=8JAMGTSNJLC5&sprefix=mobil%2Celectronics%2C527&ref=nb_sb_ss_ts-doa-p_3_5']
+    start_urls = ['https://www.amazon.in/s?k=mobile+phone&i=electronics&crichd=8JAMGTSNJLC5&sprefix=mobil%2Celectronics%2C527&ref=nb_sb_ss_ts-doa-p_3_5']
 
     def parse(self, response):
         
